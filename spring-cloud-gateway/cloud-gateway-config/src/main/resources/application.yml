@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: product-ms
+        uri: http://localhost:8081/
+        predicates:
+        - Path=/product/**
+      - id: order-ms
+        uri: http://localhost:8082/
+        predicates:
+        - Path=/order/**
