@@ -1,0 +1,9 @@
+title: Product Details
+description: Readoing Data from yaml file
+products:
+  - id: 1
+    name: Demo product 1
+    price: 100
+  - id: 2
+    name: Demo product 2
+    price: 200
