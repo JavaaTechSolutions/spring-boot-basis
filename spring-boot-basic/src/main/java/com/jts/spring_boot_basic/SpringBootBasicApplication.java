@@ -30,13 +30,13 @@ public class SpringBootBasicApplication /* implements CommandLineRunner */ {
 	@Bean
 	public CommandLineRunner start() {
 		return args -> {
-			Customer cust = new Customer();
-			cust.setAddress("Dummy Data");
-			cust.setName("Test Data");
+//			Customer cust = new Customer();
+//			cust.setAddress("Dummy Data");
+//			cust.setName("Test Data");
+//
+//			customerRepo.save(cust);
 
-			customerRepo.save(cust);
-
-			System.out.println("Data intialize!");
+//			System.out.println("Data intialize!");
 		};
 	}
 
