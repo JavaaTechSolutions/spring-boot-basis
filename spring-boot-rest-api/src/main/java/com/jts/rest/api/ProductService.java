@@ -19,6 +19,7 @@ public class ProductService {
 	}
 	
 	public List<Product> getAllProducts() {
+		System.out.println("Executing get all product.");
         return productRepository.findAll();
     }
 	
